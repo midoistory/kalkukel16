@@ -9,5 +9,9 @@ console.log("Selamat Datang di Kalkulator!");
 console.log("----------");
 console.log("+", "-", "*", "/", "%");
 var operasi = input.question("pilih salah satu operasi = ");
-var masukannilai1 = input.question('masukkan nilai 1 = ');
-var masukannilai2 = input.question('masukkan nilai 2 = ');
+var masukannilai1 = input.question('masukkan nilai pertama = ');
+var masukannilai2 = input.question('masukkan nilai kedua = ');
+
+if(isNaN(masukannilai1 && masukannilai2)){
+    console.log("Maaf, Yang Anda Masukkan Bukan Angka!");
+}
