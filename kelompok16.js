@@ -22,3 +22,6 @@ if(isNaN(masukannilai1 && masukannilai2)){
     console.log("hasil dari", masukannilai1, operasi, masukannilai2, "=", Number(masukannilai1)*(Number(masukannilai2)))
 }else if(operasi == "/"){
     console.log("hasil dari", masukannilai1, operasi, masukannilai2, "=", Number(masukannilai1)/(Number(masukannilai2)))
+}else if(operasi == "%"){
+    console.log("hasil dari", masukannilai1, operasi, masukannilai2, "=", Number(masukannilai1)%(Number(masukannilai2)))
+}
