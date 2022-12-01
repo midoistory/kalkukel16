@@ -4,7 +4,9 @@
 // Zakki Muadzin Abdul Rozak
 
 const input = require('readline-sync');
+console.log("----------");
 console.log("+", "-", "*", "/", "%");
 var operasi = input.question("pilih salah satu operasi = ");
+console.log("----------");
 var masukannilai1 = input.question('masukkan nilai 1 = ');
 var masukannilai2 = input.question('masukkan nilai 2 = ');
