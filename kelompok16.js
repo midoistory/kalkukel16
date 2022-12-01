@@ -14,4 +14,6 @@ var masukannilai2 = input.question('masukkan nilai kedua = ');
 
 if(isNaN(masukannilai1 && masukannilai2)){
     console.log("Maaf, Yang Anda Masukkan Bukan Angka!");
+}else if(operasi == "+"){
+    console.log("hasil dari", masukannilai1, operasi, masukannilai2, "=", Number(masukannilai1)+(Number(masukannilai2)))
 }
